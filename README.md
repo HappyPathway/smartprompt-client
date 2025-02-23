@@ -53,3 +53,42 @@ This repository includes:
 ## Contributing
 
 Please see the [CONTRIBUTING.md](.github/CONTRIBUTING.md) file for guidelines.
+
+# Smart Prompt Client
+
+A Go client library for interacting with the Smart Prompt API.
+
+## Installation
+
+```bash
+go get github.com/yourusername/smartprompt-client
+```
+
+## Usage
+
+```go
+package main
+
+import (
+    "fmt"
+    "time"
+    "github.com/yourusername/smartprompt-client/client"
+)
+
+func main() {
+    c := client.NewClient("http://localhost:8000", 30*time.Second)
+    
+    refinedPrompt, err := c.RefinePrompt("tell me about golang")
+    if err != nil {
+        panic(err)
+    }
+    
+    fmt.Println(refinedPrompt)
+}
+```
+
+## Configuration
+
+The client accepts two parameters:
+- Base URL of the Smart Prompt API
+- Request timeout duration
