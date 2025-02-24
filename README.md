@@ -1,4 +1,4 @@
-# tf-smart-prompt
+# smartprompt
 
 Repository for the gcp-kubernetes project in HappyPathway
 
@@ -6,8 +6,8 @@ Repository for the gcp-kubernetes project in HappyPathway
 
 1. Clone this repository:
 ```bash
-git clone git@github.com:HappyPathway/tf-smart-prompt.git
-cd tf-smart-prompt
+git clone git@github.com:HappyPathway/smartprompt.git
+cd smartprompt
 ```
 
 2. Set up Python environment and install dependencies:
@@ -37,11 +37,11 @@ python scripts/init.py --debug
 
 This project consists of multiple repositories:
 
-- terraform-provider-smartprompt: tf-smart-prompt::terraform-provider-smartprompt
-- smartprompt-api: tf-smart-prompt::smartprompt-api
-- smartprompt-client: tf-smart-prompt::smartprompt-client
-- smartprompt-infra-deployment: tf-smart-prompt::smartprompt-infra-deployment
-- smartprompt-website: tf-smart-prompt::smartprompt-website
+- terraform-provider-smartprompt: smartprompt::terraform-provider-smartprompt
+- smartprompt-api: smartprompt::smartprompt-api
+- smartprompt-client: smartprompt::smartprompt-client
+- smartprompt-infra-deployment: smartprompt::smartprompt-infra-deployment
+- smartprompt-website: smartprompt::smartprompt-website
 
 ## Development Environment
 
