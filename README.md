@@ -41,6 +41,7 @@ This project consists of multiple repositories:
 - smartprompt-api: tf-smart-prompt::smartprompt-api
 - smartprompt-client: tf-smart-prompt::smartprompt-client
 - smartprompt-infra-deployment: tf-smart-prompt::smartprompt-infra-deployment
+- smartprompt-website: tf-smart-prompt::smartprompt-website
 
 ## Development Environment
 
